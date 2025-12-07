@@ -1,150 +1,71 @@
-📘 SQL University Project
+# SQL University Project
 
-This repository contains a university-level SQL assignment consisting of:
+This project is a university assignment focused on the design, creation, and management of a relational database using SQL.  
+It includes:
 
-a full database schema & dataset (SQL_project.sql)
+- The full database schema  
+- SQL queries and operations  
+- A graphical interface (GUI) packaged as a `.jar` file  
+- PDF documentation explaining the exercises and requirements
 
-a Java GUI application packaged as a JAR (SQL_GUI.jar)
+The project demonstrates practical knowledge of database creation, querying, and interaction through a user-friendly Java-based GUI.
 
-the project specifications and exercise description in PDF format
-(SQL_PROJECT.pdf, 1η Ασκηση ΒΔ.pdf)
+---
 
-The project demonstrates database design, SQL querying, and interaction with a relational database through a graphical user interface.
+## 📘 Project Contents
 
-🚀 Project Goal
+This repository contains the following files:
+
+- **SQL_project.sql**  
+  The complete SQL script containing table creation, inserts, keys, and queries.
+
+- **SQL_GUI.jar**  
+  A Java Swing GUI application that connects to the database and allows execution of queries through a visual interface.
+
+- **SQL_PROJECT.pdf**  
+  Full description of the project assignment and requirements.
+
+- **1η Ασκηση ΒΔ.pdf**  
+  Additional documentation/exercise description for the database tasks.
+
+---
+
+## 🎯 Project Goal
 
 The goal of this project is to:
 
-Design and implement a relational database based on the requirements described in the PDFs.
+1. Design a relational database.
+2. Implement the schema using SQL.
+3. Populate tables with example records.
+4. Execute various SQL queries (joins, aggregations, selections, updates, etc.).
+5. Interact with the database via a Java GUI application (`SQL_GUI.jar`).
+6. Demonstrate understanding of SQL, database concepts, and simple GUI-based query execution.
 
-Create and populate tables using SQL scripts.
+---
 
-Execute queries that satisfy the functional requirements of the assignment.
+## ⚙️ Requirements
 
-Provide a desktop interface (Java Swing application) that interacts with the database and performs:
+To run the full project (database + GUI), the user needs:
 
-Queries
+### **1. MySQL or MariaDB**
+Any version compatible with SQL scripts:
+- MySQL Server (recommended)
+- MariaDB (alternative)
 
-Data retrieval
+### **2. A tool to import/run the SQL script**
+Examples:
+- phpMyAdmin (included with XAMPP)
+- MySQL Workbench
+- DBeaver
+- Command Line MySQL
 
-Inserts/updates (depending on assignment scope)
+### **3. Java Runtime Environment (JRE)**
+Required to run the GUI `.jar` file:
 
-This project combines SQL skills with Java GUI programming, showing how applications interact with databases.
+- **Java 8 or later**
+- Download from https://www.oracle.com/java/technologies/downloads/  
+  or use OpenJDK.
 
-📂 Files Included
-File	Description
-SQL_project.sql	Full SQL script: schema creation + inserts
-SQL_GUI.jar	Java desktop application to interact with the database
-SQL_PROJECT.pdf	Main project description
-1η Ασκηση ΒΔ.pdf	Assignment instructions (Greek)
-🛠 Requirements
-
-To run this project, you need:
-
-✔ Java Runtime Environment (JRE)
-
-Required to run the .jar GUI application.
-Download: https://www.java.com/
-
-✔ MySQL or MariaDB Server
-
-You can use:
-
-XAMPP MySQL
-
-Standalone MySQL Server
-
-MariaDB
-
-✔ A SQL Client (optional but recommended)
-
-Such as:
-
-MySQL Workbench
-
-phpMyAdmin
-
-DBeaver
-
-HeidiSQL
-
-✔ Basic Web/Programming Technologies (used inside the project PDFs)
-
-(Not required to run the project, but relevant to the assignment content)
-
-SQL
-
-Java
-
-JDBC
-
-Relational database concepts
-
-📥 1. How to Clone the Repository
-
-If you have Git installed, open a terminal and run:
-
-git clone https://github.com/Zoubou/SQL-Uni-Project.git
-
-
-🗄️ 2. How to Set Up the Database
-
-Open MySQL Workbench or phpMyAdmin
-
-Create a new database 
-
-Import the SQL file:
-
-MySQL Workbench
-
-Server → Data Import → Import from Self-Contained File
-
-Select: SQL_project.sql
-
-Choose database
-
-Run import
-
-phpMyAdmin
-
-Select database
-
-Go to Import
-
-Select: SQL_project.sql
-
-Click Go
-
-Your database is now created and populated.
-
-▶️ 3. How to Run the GUI Application
-
-Make sure MySQL is running
-
-Open a terminal in the project folder
-
-Run the JAR file:
-
-java -jar SQL_GUI.jar
-
-
-Inside the GUI:
-
-Enter your MySQL login credentials
-
-Select database
-
-Start running queries through the interface
-
-🎓 Summary
-
-This project is a complete SQL + Java desktop application built for a university database course.
-It includes:
-
-Full relational database implementation
-
-A complete GUI for interacting with the DB
-
-Official project documentation
-
-You can use it for learning SQL, practicing queries, or studying how Java applications connect to MySQL.
+### **4. Operating System**
+- Windows, macOS, or Linux  
+  (anything that supports Java)
